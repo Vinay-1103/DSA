@@ -118,6 +118,7 @@ public class DoubleLL {
         if (head == null){
             System.out.println("List is empty");
             return;
+
         }
             while (temp.next != null) {
                 temp = temp.next;
