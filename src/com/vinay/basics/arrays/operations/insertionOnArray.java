@@ -101,8 +101,8 @@ public class insertionOnArray {
 //        traverseArray(arr);
 //        insertAtBegininning(arr,55);
 //        traverseArray(arr);
-        insertAtEnd(arr,33);
-        traverseArray(arr);
+//        insertAtEnd(arr,33);
+//        traverseArray(arr);
         insertAtposition(arr,3,100);
         traverseArray(arr);
     }
