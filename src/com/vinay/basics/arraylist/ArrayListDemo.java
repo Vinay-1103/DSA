@@ -18,11 +18,11 @@ public class ArrayListDemo {
     }
 
 //    With Generics
-public static void main(String[] args) {
+/*public static void main(String[] args) {
     ArrayList<String> list=new ArrayList<>();
     list.add("vinay");
 
     System.out.println(list);
-}
+}*/
 
 }
