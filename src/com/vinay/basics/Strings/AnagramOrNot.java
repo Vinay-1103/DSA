@@ -1,0 +1,21 @@
+package com.vinay.basics.Strings;
+
+import java.util.Arrays;
+
+public class AnagramOrNot {
+    static boolean isAnagram(String s,String t){
+        if (s.length() != t.length()){
+            System.out.println("String are not Anagram");
+        }
+        char[] charArray1=s.toCharArray();
+        char[] charArray2=t.toCharArray();
+
+        Arrays.sort(charArray1);
+        Arrays.sort(charArray2);
+
+        return Arrays.equals(charArray1,charArray2);
+    }
+    public static void main(String[] args) {
+        System.out.println(isAnagram("listen","silenty"));
+    }
+}
