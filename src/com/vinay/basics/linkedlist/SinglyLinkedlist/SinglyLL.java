@@ -254,9 +254,9 @@ public class SinglyLL {
         obj.insertAtPosition(64,5);
         obj.insertAfterValue(99,94);
         obj.traversalLinkedlist();
-        obj.reverseLL();
-        obj.traversalLinkedlist();
-//        obj.findLength();
+//        obj.reverseLL();
+//        obj.traversalLinkedlist();
+//        obj.fin dLength();
 //        System.out.println(obj.searchLL(99));
 //        obj.deleteAtBegining();
 //        obj.deleteAtEnd();
