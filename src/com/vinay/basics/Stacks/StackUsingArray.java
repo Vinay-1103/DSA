@@ -9,7 +9,7 @@ public class StackUsingArray {
         maxsize=size;
         stackArray = new int[size];
         top=-1;
-    }
+    } 
 
     public void push(int element){
         if (isFull()){
