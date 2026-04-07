@@ -39,7 +39,6 @@ public class StackUsinLL {
        stack.push(10);
         stack.push(12);
         stack.push(60);
-
         System.out.println(stack.pop());
             System.out.println(stack.peek());
         }catch (Exception e){
