@@ -97,6 +97,7 @@ public class DequeUsingCircularArray {
     }
 
     int getFront()throws  Exception{
+
             if (isEmpty()) {
                 throw new Exception("Cannot display Deque is empty");
             }

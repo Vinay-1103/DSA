@@ -11,6 +11,7 @@ public class QueueUsingStack232 {
             stack1.push(x);
             return;
         }
+
         while (!stack1.isEmpty()){
             stack2.push(stack1.pop());
         }
