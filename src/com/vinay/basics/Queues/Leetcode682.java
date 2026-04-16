@@ -34,7 +34,6 @@ public class Leetcode682 {
         String[] operations = {"5","2","C","D","+"};
 
         int result = calPoints(operations);
-
         System.out.println(result);
 
     }
